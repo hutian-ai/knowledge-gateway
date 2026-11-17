@@ -11,7 +11,7 @@ Knowledge Gateway is an independent repository with a REST API, MCP, CLI and Typ
 - Hutian's knowledge page saved, retrieved and linked a new source. A real Mac member chat searched it and read the original. Historical source links preserve the cited version.
 - SDK build, Python compilation and the consuming application's relevant TypeScript checks/builds passed. No test framework or test suite was added.
 
-The package is running locally in a persistent Docker service alongside the original AnythingLLM instance. Source delivery uses the private `hutian-ai/knowledge-gateway` repository. There is no npm/PyPI or container registry release from this work. Private evidence is kept in the adjacent workspace's `.local/gateway-acceptance-20261117/`, not in this repository.
+The package is running locally in a persistent Docker service alongside the original AnythingLLM instance. Source delivery uses the public [hutian-ai/knowledge-gateway](https://github.com/hutian-ai/knowledge-gateway) repository. There is no npm/PyPI or container registry release from this work. Private evidence is kept in the adjacent workspace's `.local/gateway-acceptance-20261117/`, not in this repository.
 
 ## Limits
 
