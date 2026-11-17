@@ -1,11 +1,13 @@
 {
-  "issuers": [{
-    "id": "example-host",
-    "token_sha256": "REPLACE_WITH_SHA256_OF_PRIVATE_HOST_TOKEN",
-    "secret": "REPLACE_WITH_SEPARATE_PRIVATE_RANDOM_DERIVATION_SECRET",
-    "resource_pattern": "^example-[a-z0-9-]{1,80}$",
-    "connection": "anythingllm",
-    "namespace_prefix": "",
-    "permissions": ["read", "write"]
-  }]
+  "issuers": [
+    {
+      "id": "example-host",
+      "token_sha256": "REPLACE_WITH_SHA256_OF_PRIVATE_HOST_TOKEN",
+      "secret": "REPLACE_WITH_SEPARATE_PRIVATE_RANDOM_DERIVATION_SECRET",
+      "resource_pattern": "^example-[a-z0-9-]{1,80}$",
+      "connection": "anythingllm",
+      "namespace_prefix": "",
+      "permissions": ["read", "write"]
+    }
+  ]
 }

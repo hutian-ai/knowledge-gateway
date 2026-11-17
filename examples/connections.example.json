@@ -1,3 +1,7 @@
 {
-  "anythingllm": { "type": "anythingllm", "url": "http://127.0.0.1:3001", "token": "REPLACE_WITH_PRIVATE_OPERATOR_TOKEN" }
+  "anythingllm": {
+    "type": "anythingllm",
+    "url": "http://127.0.0.1:3001",
+    "token": "REPLACE_WITH_PRIVATE_OPERATOR_TOKEN"
+  }
 }
